@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIStyle.uss" />
+    <ui:VisualElement name="game-over-root" class="screen">
+        <ui:Label name="game-over-label" text="GAME OVER" class="game-over-label" />
+        <ui:Button name="retry-button" text="RETRY" class="retro-button" />
+        <ui:Button name="revive-button" text="REVIVE" class="retro-button retro-button--revive" />
+    </ui:VisualElement>
+</ui:UXML>

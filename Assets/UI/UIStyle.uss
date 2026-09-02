@@ -1,0 +1,109 @@
+.screen {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(10, 10, 18, 0.92);
+}
+
+.screen--transparent {
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+}
+
+.title-label {
+    font-size: 64px;
+    -unity-font-style: bold;
+    color: rgb(255, 235, 90);
+    -unity-text-align: middle-center;
+    margin-bottom: 64px;
+    letter-spacing: 4px;
+}
+
+.game-over-label {
+    font-size: 56px;
+    -unity-font-style: bold;
+    color: rgb(255, 90, 90);
+    -unity-text-align: middle-center;
+    margin-bottom: 48px;
+    letter-spacing: 4px;
+}
+
+.retro-button {
+    width: 320px;
+    height: 84px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    -unity-font-style: bold;
+    color: rgb(20, 18, 24);
+    background-color: rgb(120, 220, 90);
+    border-left-width: 6px;
+    border-right-width: 6px;
+    border-top-width: 6px;
+    border-bottom-width: 6px;
+    border-left-color: rgb(20, 18, 24);
+    border-right-color: rgb(20, 18, 24);
+    border-top-color: rgb(20, 18, 24);
+    border-bottom-color: rgb(20, 18, 24);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-text-align: middle-center;
+    transition-property: scale, background-color;
+    transition-duration: 0.06s;
+}
+
+.retro-button:hover {
+    background-color: rgb(150, 240, 110);
+}
+
+.retro-button:active {
+    scale: 0.94 0.94;
+    background-color: rgb(90, 180, 60);
+}
+
+.retro-button--revive {
+    background-color: rgb(190, 120, 255);
+}
+
+.retro-button--revive:hover {
+    background-color: rgb(210, 150, 255);
+}
+
+.retro-button--revive:active {
+    background-color: rgb(150, 90, 210);
+}
+
+.hud-root {
+    flex-grow: 1;
+    width: 100%;
+    height: 100%;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.hud-score-panel {
+    align-items: flex-start;
+    background-color: rgba(10, 10, 18, 0.55);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-bottom-width: 4px;
+    border-left-color: rgb(255, 235, 90);
+    border-right-color: rgb(255, 235, 90);
+    border-top-color: rgb(255, 235, 90);
+    border-bottom-color: rgb(255, 235, 90);
+}
+
+.score-label {
+    font-size: 28px;
+    -unity-font-style: bold;
+    color: rgb(255, 235, 90);
+}

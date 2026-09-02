@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIStyle.uss" />
+    <ui:VisualElement name="main-menu-root" class="screen">
+        <ui:Label name="title-label" text="PIXEL SWAMP" class="title-label" />
+        <ui:Button name="start-button" text="START" class="retro-button" />
+    </ui:VisualElement>
+</ui:UXML>

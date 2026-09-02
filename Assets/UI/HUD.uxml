@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/UIStyle.uss" />
+    <ui:VisualElement name="hud-root" class="screen screen--transparent hud-root" picking-mode="Ignore">
+        <ui:VisualElement name="score-panel" class="hud-score-panel" picking-mode="Ignore">
+            <ui:Label name="score-label" text="TIME: 0.0" class="score-label" picking-mode="Ignore" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
